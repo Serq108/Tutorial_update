@@ -89,4 +89,4 @@ class CourseDetailPageSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = CoursePage
-        fields = ('namme','title','snippet')
+        fields = ('title','snippet')
